@@ -1,29 +1,65 @@
-<title><[ HappleCraft ]></title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body { background: #F8B195 }
-div { background: #355C7D; width: 60%; margin: 5% 20%; padding: 10px; color:white; font-family: Roboto; font-weight: 400; }
+.main { background: #355C7D; width: 60%; margin: 5% 20%; padding: 10px; color:white; font-family: Roboto; font-weight: 300; }
 i { font-weight: 300; font-style: italic; }
 b { font-weight: 500; }
 u { font-weight: 300; text-decoration: underline; }
 h1 { font-weight: 400; }
 h2 { font-weight: 400; }
-h3 { font-weight: 400; }
+h3 { font-weight: 400; margin-block-end: 0; }
 a { color: #F67280; }
 a:visited { color: #C06C84; }
 a:hover { text-decoration: none; }
+p { max-width: 50%; }
+.flexbox {  display: flex; flex-wrap: wrap; width: 60%;   justify-content: center; }
+#creators > div { background: none; width: auto; height: auto; margin-top: 0;}
+.flexbox > div { margin: 20px; background: #bebebe; padding: 20px 10px; width: 100px;  }
+#helpers > div > b { color: #3ffe3f}
+#mods > div > b { color: #3f3ffe }
 </style>
 
-<div><Center>
+<div class="main"><Center>
 
 <p><i>Spigot 1.16.3 Survival Multiplayer</i></p>
+
+<p>HappleCraft is a community SMP server with the goal to unite multiple twitch communities into one happy minecraft community.</p>
+
+
 <p>IP: <b>happle.mc.gg</b></p>
 <p><a href="http://104.254.233.226:35976/">Dynmap</a></p>
 
+
 <img src="happle.png" width="80%">
+
+<h3>Creators</h3>
+<div class="flexbox" id="creators">
+<div><img src="https://static-cdn.jtvnw.net/jtv_user_pictures/3095154c-ac19-4e7a-89b1-eec84b34623d-profile_image-150x150.png"><br>
+<a href="https://www.twitch.tv/melizsa">Melizsa</a></div>
+
+<div><img src="https://static-cdn.jtvnw.net/jtv_user_pictures/c786d21b-549d-44f1-a5e1-6b3d009e7fb4-profile_image-150x150.png"><br>
+<a href="https://www.twitch.tv/katnapzlive">KatnapzLIVE</a></div>
+
+<div><img src="https://static-cdn.jtvnw.net/jtv_user_pictures/f1b90426-c034-48a3-b99c-608eb442945f-profile_image-150x150.png"><br>
+<a href="https://www.twitch.tv/3tiplive">3TipLive</a></div>
+
+</div>
+
+<h3>Staff</h3>
+<div class="flexbox" id="admins">
+<div><b style="color: #be00be">Dawn_mc_</b><br><i>Admin</i></div>
+<div><b style="color: #fe3f3f">Timseant</b><br><i>Admin</i></div>
+</div>
+<div class="flexbox" id="mods">
+<div><b>Name</b><br><i>Moderator</i></div>
+</div>
+<div class="flexbox" id="helpers">
+<div><b>Name</b><br><i>Helper</i></div>
+</div>
 
 <h3>Plugins</h3>
 <p>EssentialsX, DeathCoordinates, GriefPrevention, Dynmap, Singleplayer Sleep</p>
+
 
 
 
